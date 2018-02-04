@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4FF3A9D72027C1EA0011DE8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF3A9D62027C1EA0011DE8C /* AppDelegate.swift */; };
+		4FF3A9D92027C1EA0011DE8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF3A9D82027C1EA0011DE8C /* ViewController.swift */; };
+		4FF3A9DC2027C1EA0011DE8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FF3A9DA2027C1EA0011DE8C /* Main.storyboard */; };
+		4FF3A9DF2027C1EA0011DE8C /* Rami.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4FF3A9DD2027C1EA0011DE8C /* Rami.xcdatamodeld */; };
+		4FF3A9E12027C1EA0011DE8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FF3A9E02027C1EA0011DE8C /* Assets.xcassets */; };
+		4FF3A9E42027C1EA0011DE8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FF3A9E22027C1EA0011DE8C /* LaunchScreen.storyboard */; };
+		4FF3A9EF2027C1EA0011DE8C /* RamiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF3A9EE2027C1EA0011DE8C /* RamiTests.swift */; };
+		4FF3A9FA2027C1EA0011DE8C /* RamiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF3A9F92027C1EA0011DE8C /* RamiUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4FF3A9EB2027C1EA0011DE8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FF3A9CB2027C1EA0011DE8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FF3A9D22027C1EA0011DE8C;
+			remoteInfo = Rami;
+		};
+		4FF3A9F62027C1EA0011DE8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FF3A9CB2027C1EA0011DE8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FF3A9D22027C1EA0011DE8C;
+			remoteInfo = Rami;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4FF3A9D32027C1EA0011DE8C /* Rami.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rami.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FF3A9D62027C1EA0011DE8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4FF3A9D82027C1EA0011DE8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4FF3A9DB2027C1EA0011DE8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4FF3A9DE2027C1EA0011DE8C /* Rami.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Rami.xcdatamodel; sourceTree = "<group>"; };
+		4FF3A9E02027C1EA0011DE8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4FF3A9E32027C1EA0011DE8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4FF3A9E52027C1EA0011DE8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FF3A9EA2027C1EA0011DE8C /* RamiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RamiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FF3A9EE2027C1EA0011DE8C /* RamiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RamiTests.swift; sourceTree = "<group>"; };
+		4FF3A9F02027C1EA0011DE8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FF3A9F52027C1EA0011DE8C /* RamiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RamiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FF3A9F92027C1EA0011DE8C /* RamiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RamiUITests.swift; sourceTree = "<group>"; };
+		4FF3A9FB2027C1EA0011DE8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FF3A9D02027C1EA0011DE8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FF3A9E72027C1EA0011DE8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FF3A9F22027C1EA0011DE8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FF3A9CA2027C1EA0011DE8C = {
+			isa = PBXGroup;
+			children = (
+				4FF3A9D52027C1EA0011DE8C /* Rami */,
+				4FF3A9ED2027C1EA0011DE8C /* RamiTests */,
+				4FF3A9F82027C1EA0011DE8C /* RamiUITests */,
+				4FF3A9D42027C1EA0011DE8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4FF3A9D42027C1EA0011DE8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FF3A9D32027C1EA0011DE8C /* Rami.app */,
+				4FF3A9EA2027C1EA0011DE8C /* RamiTests.xctest */,
+				4FF3A9F52027C1EA0011DE8C /* RamiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FF3A9D52027C1EA0011DE8C /* Rami */ = {
+			isa = PBXGroup;
+			children = (
+				4FF3A9D62027C1EA0011DE8C /* AppDelegate.swift */,
+				4FF3A9D82027C1EA0011DE8C /* ViewController.swift */,
+				4FF3A9DA2027C1EA0011DE8C /* Main.storyboard */,
+				4FF3A9E02027C1EA0011DE8C /* Assets.xcassets */,
+				4FF3A9E22027C1EA0011DE8C /* LaunchScreen.storyboard */,
+				4FF3A9E52027C1EA0011DE8C /* Info.plist */,
+				4FF3A9DD2027C1EA0011DE8C /* Rami.xcdatamodeld */,
+			);
+			path = Rami;
+			sourceTree = "<group>";
+		};
+		4FF3A9ED2027C1EA0011DE8C /* RamiTests */ = {
+			isa = PBXGroup;
+			children = (
+				4FF3A9EE2027C1EA0011DE8C /* RamiTests.swift */,
+				4FF3A9F02027C1EA0011DE8C /* Info.plist */,
+			);
+			path = RamiTests;
+			sourceTree = "<group>";
+		};
+		4FF3A9F82027C1EA0011DE8C /* RamiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4FF3A9F92027C1EA0011DE8C /* RamiUITests.swift */,
+				4FF3A9FB2027C1EA0011DE8C /* Info.plist */,
+			);
+			path = RamiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FF3A9D22027C1EA0011DE8C /* Rami */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FF3A9FE2027C1EA0011DE8C /* Build configuration list for PBXNativeTarget "Rami" */;
+			buildPhases = (
+				4FF3A9CF2027C1EA0011DE8C /* Sources */,
+				4FF3A9D02027C1EA0011DE8C /* Frameworks */,
+				4FF3A9D12027C1EA0011DE8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rami;
+			productName = Rami;
+			productReference = 4FF3A9D32027C1EA0011DE8C /* Rami.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4FF3A9E92027C1EA0011DE8C /* RamiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FF3AA012027C1EA0011DE8C /* Build configuration list for PBXNativeTarget "RamiTests" */;
+			buildPhases = (
+				4FF3A9E62027C1EA0011DE8C /* Sources */,
+				4FF3A9E72027C1EA0011DE8C /* Frameworks */,
+				4FF3A9E82027C1EA0011DE8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FF3A9EC2027C1EA0011DE8C /* PBXTargetDependency */,
+			);
+			name = RamiTests;
+			productName = RamiTests;
+			productReference = 4FF3A9EA2027C1EA0011DE8C /* RamiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4FF3A9F42027C1EA0011DE8C /* RamiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FF3AA042027C1EA0011DE8C /* Build configuration list for PBXNativeTarget "RamiUITests" */;
+			buildPhases = (
+				4FF3A9F12027C1EA0011DE8C /* Sources */,
+				4FF3A9F22027C1EA0011DE8C /* Frameworks */,
+				4FF3A9F32027C1EA0011DE8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FF3A9F72027C1EA0011DE8C /* PBXTargetDependency */,
+			);
+			name = RamiUITests;
+			productName = RamiUITests;
+			productReference = 4FF3A9F52027C1EA0011DE8C /* RamiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FF3A9CB2027C1EA0011DE8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Nicolas Savoini";
+				TargetAttributes = {
+					4FF3A9D22027C1EA0011DE8C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					4FF3A9E92027C1EA0011DE8C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4FF3A9D22027C1EA0011DE8C;
+					};
+					4FF3A9F42027C1EA0011DE8C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4FF3A9D22027C1EA0011DE8C;
+					};
+				};
+			};
+			buildConfigurationList = 4FF3A9CE2027C1EA0011DE8C /* Build configuration list for PBXProject "Rami" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4FF3A9CA2027C1EA0011DE8C;
+			productRefGroup = 4FF3A9D42027C1EA0011DE8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FF3A9D22027C1EA0011DE8C /* Rami */,
+				4FF3A9E92027C1EA0011DE8C /* RamiTests */,
+				4FF3A9F42027C1EA0011DE8C /* RamiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FF3A9D12027C1EA0011DE8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FF3A9E42027C1EA0011DE8C /* LaunchScreen.storyboard in Resources */,
+				4FF3A9E12027C1EA0011DE8C /* Assets.xcassets in Resources */,
+				4FF3A9DC2027C1EA0011DE8C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FF3A9E82027C1EA0011DE8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FF3A9F32027C1EA0011DE8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FF3A9CF2027C1EA0011DE8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FF3A9DF2027C1EA0011DE8C /* Rami.xcdatamodeld in Sources */,
+				4FF3A9D92027C1EA0011DE8C /* ViewController.swift in Sources */,
+				4FF3A9D72027C1EA0011DE8C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FF3A9E62027C1EA0011DE8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FF3A9EF2027C1EA0011DE8C /* RamiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FF3A9F12027C1EA0011DE8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FF3A9FA2027C1EA0011DE8C /* RamiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4FF3A9EC2027C1EA0011DE8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FF3A9D22027C1EA0011DE8C /* Rami */;
+			targetProxy = 4FF3A9EB2027C1EA0011DE8C /* PBXContainerItemProxy */;
+		};
+		4FF3A9F72027C1EA0011DE8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FF3A9D22027C1EA0011DE8C /* Rami */;
+			targetProxy = 4FF3A9F62027C1EA0011DE8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4FF3A9DA2027C1EA0011DE8C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FF3A9DB2027C1EA0011DE8C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4FF3A9E22027C1EA0011DE8C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FF3A9E32027C1EA0011DE8C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4FF3A9FC2027C1EA0011DE8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4FF3A9FD2027C1EA0011DE8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4FF3A9FF2027C1EA0011DE8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3H4AB28HMB;
+				INFOPLIST_FILE = Rami/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nsa.Rami;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4FF3AA002027C1EA0011DE8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3H4AB28HMB;
+				INFOPLIST_FILE = Rami/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nsa.Rami;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4FF3AA022027C1EA0011DE8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3H4AB28HMB;
+				INFOPLIST_FILE = RamiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nsa.RamiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rami.app/Rami";
+			};
+			name = Debug;
+		};
+		4FF3AA032027C1EA0011DE8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3H4AB28HMB;
+				INFOPLIST_FILE = RamiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nsa.RamiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rami.app/Rami";
+			};
+			name = Release;
+		};
+		4FF3AA052027C1EA0011DE8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3H4AB28HMB;
+				INFOPLIST_FILE = RamiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nsa.RamiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Rami;
+			};
+			name = Debug;
+		};
+		4FF3AA062027C1EA0011DE8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3H4AB28HMB;
+				INFOPLIST_FILE = RamiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nsa.RamiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Rami;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FF3A9CE2027C1EA0011DE8C /* Build configuration list for PBXProject "Rami" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FF3A9FC2027C1EA0011DE8C /* Debug */,
+				4FF3A9FD2027C1EA0011DE8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FF3A9FE2027C1EA0011DE8C /* Build configuration list for PBXNativeTarget "Rami" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FF3A9FF2027C1EA0011DE8C /* Debug */,
+				4FF3AA002027C1EA0011DE8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FF3AA012027C1EA0011DE8C /* Build configuration list for PBXNativeTarget "RamiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FF3AA022027C1EA0011DE8C /* Debug */,
+				4FF3AA032027C1EA0011DE8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FF3AA042027C1EA0011DE8C /* Build configuration list for PBXNativeTarget "RamiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FF3AA052027C1EA0011DE8C /* Debug */,
+				4FF3AA062027C1EA0011DE8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4FF3A9DD2027C1EA0011DE8C /* Rami.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4FF3A9DE2027C1EA0011DE8C /* Rami.xcdatamodel */,
+			);
+			currentVersion = 4FF3A9DE2027C1EA0011DE8C /* Rami.xcdatamodel */;
+			path = Rami.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4FF3A9CB2027C1EA0011DE8C /* Project object */;
+}
