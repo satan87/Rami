@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F010D012030F4D500FD9FC4 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F010D002030F4D500FD9FC4 /* Card.swift */; };
+		4F010D032030F5E600FD9FC4 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F010D022030F5E600FD9FC4 /* Color.swift */; };
+		4F010D052030F9BC00FD9FC4 /* Symbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F010D042030F9BC00FD9FC4 /* Symbol.swift */; };
+		4F010D082030FACE00FD9FC4 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F010D072030FACE00FD9FC4 /* Deck.swift */; };
+		4F010D0A203893C300FD9FC4 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F010D09203893C300FD9FC4 /* Game.swift */; };
+		4F83E2C520393737002B4563 /* PlayerCardsInHand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F83E2C420393737002B4563 /* PlayerCardsInHand.swift */; };
 		4FF3A9D72027C1EA0011DE8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF3A9D62027C1EA0011DE8C /* AppDelegate.swift */; };
 		4FF3A9D92027C1EA0011DE8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF3A9D82027C1EA0011DE8C /* ViewController.swift */; };
 		4FF3A9DC2027C1EA0011DE8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FF3A9DA2027C1EA0011DE8C /* Main.storyboard */; };
@@ -15,6 +21,10 @@
 		4FF3A9E42027C1EA0011DE8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FF3A9E22027C1EA0011DE8C /* LaunchScreen.storyboard */; };
 		4FF3A9EF2027C1EA0011DE8C /* RamiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF3A9EE2027C1EA0011DE8C /* RamiTests.swift */; };
 		4FF3A9FA2027C1EA0011DE8C /* RamiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF3A9F92027C1EA0011DE8C /* RamiUITests.swift */; };
+		4FF3AA0D2027D1820011DE8C /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF3AA0C2027D1820011DE8C /* PlayViewController.swift */; };
+		4FF3AA0F2027D2370011DE8C /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF3AA0E2027D2370011DE8C /* Player.swift */; };
+		4FF3AA132027D3440011DE8C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF3AA122027D3440011DE8C /* Constants.swift */; };
+		4FF3AA16202FBC250011DE8C /* GlobalVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF3AA15202FBC250011DE8C /* GlobalVariables.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F010D002030F4D500FD9FC4 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		4F010D022030F5E600FD9FC4 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		4F010D042030F9BC00FD9FC4 /* Symbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symbol.swift; sourceTree = "<group>"; };
+		4F010D072030FACE00FD9FC4 /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		4F010D09203893C300FD9FC4 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		4F83E2C420393737002B4563 /* PlayerCardsInHand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCardsInHand.swift; sourceTree = "<group>"; };
 		4FF3A9D32027C1EA0011DE8C /* Rami.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rami.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FF3A9D62027C1EA0011DE8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4FF3A9D82027C1EA0011DE8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +65,10 @@
 		4FF3A9F52027C1EA0011DE8C /* RamiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RamiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FF3A9F92027C1EA0011DE8C /* RamiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RamiUITests.swift; sourceTree = "<group>"; };
 		4FF3A9FB2027C1EA0011DE8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FF3AA0C2027D1820011DE8C /* PlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayViewController.swift; sourceTree = "<group>"; };
+		4FF3AA0E2027D2370011DE8C /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		4FF3AA122027D3440011DE8C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4FF3AA15202FBC250011DE8C /* GlobalVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalVariables.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +96,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F010D062030FA9A00FD9FC4 /* Deck */ = {
+			isa = PBXGroup;
+			children = (
+				4F010D072030FACE00FD9FC4 /* Deck.swift */,
+			);
+			path = Deck;
+			sourceTree = "<group>";
+		};
 		4FF3A9CA2027C1EA0011DE8C = {
 			isa = PBXGroup;
 			children = (
@@ -99,8 +127,13 @@
 		4FF3A9D52027C1EA0011DE8C /* Rami */ = {
 			isa = PBXGroup;
 			children = (
-				4FF3A9D62027C1EA0011DE8C /* AppDelegate.swift */,
-				4FF3A9D82027C1EA0011DE8C /* ViewController.swift */,
+				4FF3AA142027D34A0011DE8C /* Others */,
+				4FF3AA0B2027C28B0011DE8C /* Game */,
+				4FF3AA0A2027C2850011DE8C /* Player */,
+				4FF3AA092027C27D0011DE8C /* Card */,
+				4F010D062030FA9A00FD9FC4 /* Deck */,
+				4FF3AA082027C26F0011DE8C /* Controller */,
+				4FF3AA072027C2420011DE8C /* App */,
 				4FF3A9DA2027C1EA0011DE8C /* Main.storyboard */,
 				4FF3A9E02027C1EA0011DE8C /* Assets.xcassets */,
 				4FF3A9E22027C1EA0011DE8C /* LaunchScreen.storyboard */,
@@ -126,6 +159,59 @@
 				4FF3A9FB2027C1EA0011DE8C /* Info.plist */,
 			);
 			path = RamiUITests;
+			sourceTree = "<group>";
+		};
+		4FF3AA072027C2420011DE8C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				4FF3A9D62027C1EA0011DE8C /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		4FF3AA082027C26F0011DE8C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4FF3A9D82027C1EA0011DE8C /* ViewController.swift */,
+				4FF3AA0C2027D1820011DE8C /* PlayViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4FF3AA092027C27D0011DE8C /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				4F010D002030F4D500FD9FC4 /* Card.swift */,
+				4F010D022030F5E600FD9FC4 /* Color.swift */,
+				4F010D042030F9BC00FD9FC4 /* Symbol.swift */,
+			);
+			path = Card;
+			sourceTree = "<group>";
+		};
+		4FF3AA0A2027C2850011DE8C /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				4FF3AA0E2027D2370011DE8C /* Player.swift */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		4FF3AA0B2027C28B0011DE8C /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				4F010D09203893C300FD9FC4 /* Game.swift */,
+				4F83E2C420393737002B4563 /* PlayerCardsInHand.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		4FF3AA142027D34A0011DE8C /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				4FF3AA122027D3440011DE8C /* Constants.swift */,
+				4FF3AA15202FBC250011DE8C /* GlobalVariables.swift */,
+			);
+			path = Others;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +348,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FF3AA0D2027D1820011DE8C /* PlayViewController.swift in Sources */,
+				4F010D052030F9BC00FD9FC4 /* Symbol.swift in Sources */,
 				4FF3A9DF2027C1EA0011DE8C /* Rami.xcdatamodeld in Sources */,
 				4FF3A9D92027C1EA0011DE8C /* ViewController.swift in Sources */,
+				4FF3AA132027D3440011DE8C /* Constants.swift in Sources */,
+				4FF3AA16202FBC250011DE8C /* GlobalVariables.swift in Sources */,
+				4FF3AA0F2027D2370011DE8C /* Player.swift in Sources */,
+				4F010D0A203893C300FD9FC4 /* Game.swift in Sources */,
 				4FF3A9D72027C1EA0011DE8C /* AppDelegate.swift in Sources */,
+				4F010D012030F4D500FD9FC4 /* Card.swift in Sources */,
+				4F010D082030FACE00FD9FC4 /* Deck.swift in Sources */,
+				4F010D032030F5E600FD9FC4 /* Color.swift in Sources */,
+				4F83E2C520393737002B4563 /* PlayerCardsInHand.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

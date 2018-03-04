@@ -21,16 +21,76 @@ class RamiTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-    
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measure {
             // Put the code you want to measure the time of here.
         }
     }
+    
+    
+    //Player
+    func testPlayerCreationName(){
+        let p:Player = Player();
+        XCTAssert(p.name == "Player")
+    }
+    func testPlayerCreationType(){
+        let p:Player = Player();
+        XCTAssert(p.type == TYPE_PLAYER_HUMAIN)
+    }
+    
+    //DECK
+    func testCreateDeck32(){
+        let d = Deck(numberOfCard: DECK_SIZE.smallDeck, withJokers: false)
+        XCTAssert(d.getAllCards().count == 32)
+        let d1 = Deck(numberOfCard: DECK_SIZE.smallDeck, withJokers: true)
+        XCTAssert(d1.getAllCards().count == 34)
+    }
+    func testCreateDeck54(){
+        let d = Deck(numberOfCard: DECK_SIZE.bigDeck, withJokers: false)
+        XCTAssert(d.getAllCards().count == 52)
+        let d1 = Deck(numberOfCard: DECK_SIZE.bigDeck, withJokers: true)
+        XCTAssert(d1.getAllCards().count == 54)
+    }
+    
+    //GAME
+    func testCreateGameNumberOfPlayer(){
+        let players:[Player] = createListOfPlayer(numberOfPlayer: 2)
+        let g:GameRami = GameRami(listOfPlayers: players)
+        
+        XCTAssert(g.getNumberOfPlayer() == 2)
+    }
+    
+    private func createListOfPlayer(numberOfPlayer nbp:Int) -> [Player]{
+        var p:[Player] = []
+        for i in 1...nbp {
+           p.append(Player(nameOfThePlayer: "Player \(i)"))
+        }
+        return p
+    }
+    
+    func testCreateGameNumberOfCard(){
+        let g:GameRami = GameRami(listOfPlayers: createListOfPlayer(numberOfPlayer: 2))
+        XCTAssert(g.getAllCardsFromPioche().count == 108 )
+    }
+    
+    func testCreateGameNumberOfjocker(){
+        let g:GameRami = GameRami(listOfPlayers: createListOfPlayer(numberOfPlayer: 4))
+        XCTAssert(g.getAllCardsFromPioche().filter{ $0.symbol === CARD_JOCKER }.count == 4 );
+    }
+    
+    func testShufflingCardForGame(){
+        let g:GameRami = GameRami(listOfPlayers: createListOfPlayer(numberOfPlayer: 4))
+        print ( g.getAllCardsFromPioche()[12].getCardName() )
+        print( g.getAllCardsFromPioche()[13].getCardName() )
+        print( g.getAllCardsFromPioche()[14].getCardName() )
+        print( g.getAllCardsFromPioche()[15].getCardName() )
+        XCTAssert(true)
+    }
+    
+    
+    
+    
+    
     
 }
