@@ -80,7 +80,7 @@ class RamiTests: XCTestCase {
     }
     
     func testShufflingCardForGame(){
-        let g:GameRami = GameRami(listOfPlayers: createListOfPlayer(numberOfPlayer: 4))
+        let g:GameRami = GameRami(listOfPlayers: createListOfPlayer(numbserOfPlayer: 4))
         print ( g.getAllCardsFromPioche()[12].getCardName() )
         print( g.getAllCardsFromPioche()[13].getCardName() )
         print( g.getAllCardsFromPioche()[14].getCardName() )
