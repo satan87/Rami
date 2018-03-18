@@ -30,7 +30,7 @@ class GameRami : Codable {
         shuffleDecks()
         distributeCardToPlayer()
     }
-    
+     
     private func prepareDecks(){
         deck.append(contentsOf: Deck(numberOfCard: DECK_SIZE.bigDeck, withJokers: true).getAllCards())
         deck.append(contentsOf: Deck(numberOfCard: DECK_SIZE.bigDeck, withJokers: true).getAllCards())
