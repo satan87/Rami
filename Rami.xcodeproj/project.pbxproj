@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		374336F1206876D900E6E367 /* DeckFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374336F0206876D900E6E367 /* DeckFunction.swift */; };
 		4F010D012030F4D500FD9FC4 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F010D002030F4D500FD9FC4 /* Card.swift */; };
 		4F010D032030F5E600FD9FC4 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F010D022030F5E600FD9FC4 /* Color.swift */; };
 		4F010D052030F9BC00FD9FC4 /* Symbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F010D042030F9BC00FD9FC4 /* Symbol.swift */; };
@@ -45,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		374336F0206876D900E6E367 /* DeckFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckFunction.swift; sourceTree = "<group>"; };
 		4F010D002030F4D500FD9FC4 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		4F010D022030F5E600FD9FC4 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		4F010D042030F9BC00FD9FC4 /* Symbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symbol.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				4F010D072030FACE00FD9FC4 /* Deck.swift */,
+				374336F0206876D900E6E367 /* DeckFunction.swift */,
 			);
 			path = Deck;
 			sourceTree = "<group>";
@@ -350,6 +353,7 @@
 			files = (
 				4FF3AA0D2027D1820011DE8C /* PlayViewController.swift in Sources */,
 				4F010D052030F9BC00FD9FC4 /* Symbol.swift in Sources */,
+				374336F1206876D900E6E367 /* DeckFunction.swift in Sources */,
 				4FF3A9DF2027C1EA0011DE8C /* Rami.xcdatamodeld in Sources */,
 				4FF3A9D92027C1EA0011DE8C /* ViewController.swift in Sources */,
 				4FF3AA132027D3440011DE8C /* Constants.swift in Sources */,
@@ -529,11 +533,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3H4AB28HMB;
 				INFOPLIST_FILE = Rami/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nsa.Rami;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -544,11 +549,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3H4AB28HMB;
 				INFOPLIST_FILE = Rami/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nsa.Rami;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

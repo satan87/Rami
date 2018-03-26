@@ -70,22 +70,30 @@ class RamiTests: XCTestCase {
     }
     
     func testCreateGameNumberOfCard(){
-        let g:GameRami = GameRami(listOfPlayers: createListOfPlayer(numberOfPlayer: 2))
-        XCTAssert(g.getAllCardsFromPioche().count == 108 )
+        let cards:[Card] = createDeck(numberOfPaquet: 2, withJokers: true)
+        XCTAssert(cards.count == 108 )
     }
     
     func testCreateGameNumberOfjocker(){
-        let g:GameRami = GameRami(listOfPlayers: createListOfPlayer(numberOfPlayer: 4))
-        XCTAssert(g.getAllCardsFromPioche().filter{ $0.symbol === CARD_JOCKER }.count == 4 );
+        let cards:[Card] = createDeck(numberOfPaquet: 2, withJokers: true)
+        XCTAssert(cards.filter{ $0.symbol === CARD_JOCKER }.count == 4 );
     }
     
     func testShufflingCardForGame(){
-        let g:GameRami = GameRami(listOfPlayers: createListOfPlayer(numbserOfPlayer: 4))
-        print ( g.getAllCardsFromPioche()[12].getCardName() )
-        print( g.getAllCardsFromPioche()[13].getCardName() )
-        print( g.getAllCardsFromPioche()[14].getCardName() )
-        print( g.getAllCardsFromPioche()[15].getCardName() )
-        XCTAssert(true)
+        let g:GameRami = GameRami(listOfPlayers: createListOfPlayer(numberOfPlayer: 2))
+        
+        //check they not same color and near value
+        if ( g.getAllCardsFromPioche()[11].color != g.getAllCardsFromPioche()[12].color  ||
+            g.getAllCardsFromPioche()[11].color != g.getAllCardsFromPioche()[10].color ) {
+                XCTAssert(true)
+        }else{
+            if ( g.getAllCardsFromPioche()[11].symbol != g.getAllCardsFromPioche()[12].symbol  ||
+                g.getAllCardsFromPioche()[11].symbol != g.getAllCardsFromPioche()[10].symbol ) {
+                XCTAssert(true)
+            }else{
+                XCTAssert(false)
+            }
+        }
     }
     
     

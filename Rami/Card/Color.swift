@@ -15,4 +15,14 @@ class Color : Codable {
     init(color:String){
         name = color
     }
+    
+    
+    
+    static func == ( c1: Color , c2: Color ) -> Bool {
+        return c1.name == c2.name
+    }
+    static func != ( c1: Color , c2: Color ) -> Bool {
+        return c1.name != c2.name
+    }
+    
 }
